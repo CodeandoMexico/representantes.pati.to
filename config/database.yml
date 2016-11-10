@@ -2,14 +2,14 @@
   :mongodb:
     :sessions:
       :default:
-        :hosts: 
-          - localhost:27017
+        :hosts:
+          - db:27017
         :database: representantes2
 
 :development:
   :mongodb:
     :sessions:
       :default:
-        :hosts: 
-          - localhost:27017
+        :hosts:
+          - db:27017
         :database: representantes2
