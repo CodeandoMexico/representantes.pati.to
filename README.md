@@ -53,9 +53,15 @@ git clone https://github.com/unRob/representantes.pati.to.git
 ```
 
 7) Corre el proyecto con docker-compose:
-```
+```bash
 docker-compose up
+
+# Si no quieres estar viendo los logs, puedes
+# correrlo como un background process
+docker-compose up -d
 ```
+
+8) Entra a `localhost:2222`, _(sí, el puerto son puros patitos...)_
 
 [dbdump]: http://representantes.pati.to/representantes.pati.tar.gz
 
